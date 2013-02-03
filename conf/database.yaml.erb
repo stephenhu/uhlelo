@@ -1,0 +1,13 @@
+development:
+  adapter: sqlite3
+  database: <%= dbfile %>
+  pool: 10
+  timeout: 5000
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: uhlelo
+  username: <%= username %>
+  password: <%= password %>
+  

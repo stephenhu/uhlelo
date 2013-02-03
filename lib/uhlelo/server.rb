@@ -25,6 +25,7 @@ module Uhlelo
 
       puts imap.test
 
+      haml :test
       #google = GoogleHelper.get_email(token.token)
 
     end

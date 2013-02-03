@@ -1,2 +1,5 @@
 - pull email address from google
-- 
+- obfuscate password in configuration files
+- store attachments to dropbox
+- store attachments to google drive
+-  

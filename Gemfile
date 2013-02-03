@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem "activerecord"
 gem "gmail"
 gem "haml"
 gem "highline"
