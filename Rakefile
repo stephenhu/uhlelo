@@ -24,5 +24,19 @@ task :config do
   file.write(contents)
   file.close
   
+  puts "conf/config.yaml created"
+
+  username = ask("postgresql username: ")
+  password = ask("postgresql password: ")
+
+  database  = ERB.new(File.read("./conf/database.yaml.erb"))
+  contents  = database.result(binding)
+
+  file2 = File.open( "./conf/database.yaml", "w" )
+  file2.write(contents)
+  file2.close
+
+  puts "conf/database.yaml created"
+
 end
 
