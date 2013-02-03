@@ -1,4 +1,30 @@
 body {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
+/* custom classes */
+
+.large {
+  font-size: 24px;
+}
+
+.barometer {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.meter {
+  font-size: 32px;
+}
+
+.gauge {
+  color: #aaaaaa;
+  
+}
+
+/* bootstrap overrides */
+
+.navbar {
+  background: #005994;
+}

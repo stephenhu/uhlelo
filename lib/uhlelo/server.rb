@@ -30,8 +30,8 @@ module Uhlelo
 
     end
 
-    get "/auth" do
-      haml :auth
+    get "/test" do
+      haml :test
     end
 
   end
